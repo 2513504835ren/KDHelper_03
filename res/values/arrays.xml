@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frag_person_list">s
+        
+        <item>个人中心</item>
+        <item>短信模板</item>
+        <item>派件统计</item>
+        <item>地图查询</item>
+        <item>客服中心</item>
+        <item>设置</item>
+        <item>帮助</item>
+        <item>关于</item>
+    </string-array>
+</resources>
