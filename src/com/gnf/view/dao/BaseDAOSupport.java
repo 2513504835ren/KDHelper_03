@@ -272,11 +272,11 @@ public abstract class BaseDAOSupport<M> implements BaseDAO<M> {
 		Class clazz = getClass();
 		// Log.i(TAG, clazz.toString());
 		// ②获取该孩子的父类（“支持泛型”的父类）
-		// clazz.getSuperclass();//class com.ithm.dbhm28.dao.base.DAOSupport
-		Type superclass = clazz.getGenericSuperclass();// com.ithm.dbhm28.dao.base.DAOSupport<com.ithm.dbhm28.dao.domain.News>
+		// clazz.getSuperclass();//
+		Type superclass = clazz.getGenericSuperclass();//
 		// 泛型实现接口（参数化的类型），规定了泛型的通用操作
 		if (superclass != null && superclass instanceof ParameterizedType) {
-			Type[] arguments = ((ParameterizedType) superclass).getActualTypeArguments();// [class com.ithm.dbhm28.dao.domain.News]
+			Type[] arguments = ((ParameterizedType) superclass).getActualTypeArguments();// 
 			
 			Log.d(TAG, arguments[0]+"");
 			try {
