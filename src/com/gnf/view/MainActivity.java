@@ -10,6 +10,12 @@ import com.gnf.view.fragment.ContactFrag;
 import com.gnf.view.fragment.PersonageFrag;
 import com.gnf.view.fragment.RecognitionFrag;
 
+
+/**
+ * jjdjfjdk
+ * @author ren
+ *
+ */
 public class MainActivity extends Activity {
 
 
